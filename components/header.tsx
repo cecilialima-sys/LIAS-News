@@ -56,7 +56,7 @@ export function Header({ compact = false }: HeaderProps) {
             width={80}
             height={80}
             className={`
-              object-contain transition-all duration-200
+              object-contain transition-all duration-200 mix-blend-multiply
               ${condensed ? "h-[54px] w-[54px]" : "h-[68px] w-[68px]"}
             `}
           />
@@ -83,7 +83,10 @@ export function Header({ compact = false }: HeaderProps) {
             alt="Logo oficial da UNIFAL-MG"
             width={200}
             height={64}
-            className={`block h-auto w-auto object-contain ${condensed ? "max-h-12" : "max-h-16"}`}
+            loading="eager"
+            priority
+            style={{ width: "auto", height: "auto" }}
+            className={`block max-w-[200px] object-contain ${condensed ? "max-h-12" : "max-h-16"}`}
           />
         </div>
       </div>
