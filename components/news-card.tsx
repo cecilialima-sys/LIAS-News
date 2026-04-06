@@ -14,7 +14,7 @@ export function NewsCard({ noticia, featured = false }: NewsCardProps) {
       className={`
         flex flex-col gap-3.5 rounded-[28px] border border-[var(--border)] p-6 backdrop-blur-sm shadow-[var(--shadow)]
         ${featured 
-          ? "col-span-2 bg-[linear-gradient(135deg,rgba(100,150,200,0.15),rgba(140,220,235,0.12),rgba(120,210,180,0.1)),#ffffff] max-md:col-span-1" 
+          ? "col-span-2 bg-[linear-gradient(135deg,rgba(100,150,200,0.35),rgba(140,220,235,0.28),rgba(120,210,180,0.25)),#ffffff] max-md:col-span-1" 
           : "bg-[var(--surface)]"
         }
       `}
