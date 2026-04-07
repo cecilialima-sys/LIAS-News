@@ -471,7 +471,7 @@ a {
 .highlight-card,
 .info-panel {
   padding: 26px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(230, 245, 250, 0.90)) !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(240, 250, 255, 0.95)) !important;
 }
 
 .editor-note {
