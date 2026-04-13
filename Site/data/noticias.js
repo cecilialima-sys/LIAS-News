@@ -102,6 +102,23 @@ window.LIAS_NEWS = [
     ]
   },
   {
+    id: "traducao-fones-tempo-real-2026",
+    categoria: "ai-news",
+    rotulo: "Aplicação Emergente",
+    area: "Áudio e Acessibilidade",
+    titulo: "IA transforma fones de ouvido comuns em tradutores simultâneos em tempo real",
+    resumo: "O Radar IA destacou uma tecnologia capaz de converter fones Bluetooth comuns em tradutores de voz ao vivo, ampliando o alcance de soluções de tradução instantânea sem hardware especializado.",
+    data: "Semana de 24 a 31 de março de 2026",
+    fonte: "Fonte: There's An AI For That, conforme consolidado no Relatório Radar IA de 31 de março de 2026",
+    fonteUrl: "https://theresanaiforthat.com/",
+    conteudo: [
+      "Entre as notícias mais curiosas e promissoras do Radar IA, uma tecnologia chamou atenção por levar tradução simultânea em tempo real para fones de ouvido Bluetooth comuns. A proposta elimina a necessidade de dispositivos especializados e usa processamento em nuvem para converter conversas faladas de um idioma para outro quase instantaneamente.",
+      "O impacto potencial dessa aplicação vai além da conveniência. Em ambientes como educação, turismo, atendimento público, negócios internacionais e até contextos de saúde, a redução da barreira linguística pode transformar experiências de comunicação e ampliar acesso a serviços e informação.",
+      "Para o contexto brasileiro, esse tipo de tecnologia é especialmente relevante porque pode facilitar interação com conteúdos globais, atendimento a públicos diversos e ambientes multilíngues com custo muito menor do que soluções tradicionais.",
+      "No portal da LIAS, a matéria entra na seção de atualizações em IA por representar uma aplicação prática de modelos de linguagem e áudio em tempo real, mostrando como a IA está saindo do campo experimental para se tornar infraestrutura cotidiana de comunicação."
+    ]
+  },
+  {
     id: "mistral-supercomputador-europa-2026",
     categoria: "ai-news",
     rotulo: "Infraestrutura",
@@ -184,6 +201,23 @@ window.LIAS_NEWS = [
       "Esse tipo de resultado é especialmente relevante porque os cânceres de intervalo tendem a ser descobertos apenas depois do aparecimento de sintomas, quando o tratamento pode se tornar mais difícil. O estudo também apontou potencial de redução de carga de trabalho para radiologistas, um tema crítico em sistemas de saúde pressionados por demanda elevada e escassez de especialistas.",
       "Ao mesmo tempo, a própria publicação reforça que a adoção clínica depende de confiança, calibração local e integração com o fluxo de trabalho real. Em alguns casos, profissionais ainda optaram por não seguir a recomendação do sistema, o que mostra que o ganho técnico não elimina a necessidade de construção gradual de confiança entre especialistas e IA.",
       "Para a LIAS, essa matéria é um bom exemplo de como a inteligência artificial pode atuar em apoio ao diagnóstico sem simplificar em excesso a realidade clínica. O valor está tanto na capacidade de encontrar padrões difíceis quanto na qualidade da interação entre tecnologia, profissionais e contexto institucional."
+    ]
+  },
+  {
+    id: "medical-ai-scientist-2026",
+    categoria: "ai-health",
+    rotulo: "Do Laboratório",
+    area: "Pesquisa Biomédica",
+    titulo: "Estudo propõe sistemas de IA capazes de atuar como cientistas médicos semi-autônomos",
+    resumo: "O Radar IA destacou a pesquisa 'Towards a Medical AI Scientist', que explora sistemas capazes de formular hipóteses, revisar literatura, planejar experimentos e interpretar resultados em contexto biomédico.",
+    data: "Semana de 24 a 31 de março de 2026",
+    referencia: "Fonte: HuggingFace Papers, conforme consolidado no Relatório Radar IA de 31 de março de 2026",
+    fonteUrl: "https://huggingface.co/papers",
+    conteudo: [
+      "Na seção 'Do Laboratório', o Radar IA trouxe um estudo sobre o conceito de Medical AI Scientist, ou cientista médico de IA. A proposta é investigar sistemas capazes de percorrer etapas centrais do processo científico biomédico, como levantar hipóteses, revisar literatura, propor experimentos e interpretar resultados de maneira semi-autônoma.",
+      "O interesse desse tipo de arquitetura está em ir além do uso tradicional da IA como ferramenta de resposta. Em vez de apenas resumir conteúdos ou classificar dados, esses sistemas buscariam participar de forma mais ativa da produção de conhecimento, acelerando etapas da pesquisa médica e da descoberta de novos caminhos investigativos.",
+      "Se bem validado, um modelo assim poderia contribuir para revisão mais rápida de literatura, priorização de hipóteses promissoras e apoio a estudos em áreas complexas, como doenças raras, desenvolvimento de fármacos e medicina de precisão.",
+      "Para a LIAS, essa matéria tem forte valor formativo porque aproxima os leitores de uma fronteira importante da IA em saúde: o uso de agentes e sistemas científicos para ampliar a capacidade humana de investigar, testar e gerar conhecimento com maior velocidade e profundidade."
     ]
   },
   {
