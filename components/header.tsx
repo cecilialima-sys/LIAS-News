@@ -38,9 +38,10 @@ export function Header({ compact = false }: HeaderProps) {
       className={`
         sticky top-0 z-10 mb-7 border border-[var(--border)] backdrop-blur-xl
         transition-all duration-200
-        ${condensed 
-          ? "rounded-b-[22px] bg-white/92 p-3 px-4 shadow-[0_18px_36px_rgba(10,43,92,0.12)]" 
-          : "rounded-[28px] bg-white/76 p-5 shadow-[var(--shadow)]"
+        ${
+          condensed
+            ? "rounded-b-[22px] bg-white/92 p-3 px-4 shadow-[0_18px_36px_rgba(10,43,92,0.12)]"
+            : "rounded-[28px] bg-white/76 p-5 shadow-[var(--shadow)]"
         }
       `}
     >
@@ -83,7 +84,10 @@ export function Header({ compact = false }: HeaderProps) {
         </div>
       </div>
 
-      <nav className={`flex flex-wrap gap-2.5 ${condensed ? "mt-3.5" : "mt-5"}`} aria-label="Navegação principal">
+      <nav
+        className={`flex flex-wrap gap-2.5 ${condensed ? "mt-3.5" : "mt-5"}`}
+        aria-label="Navegação principal"
+      >
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
@@ -93,9 +97,10 @@ export function Header({ compact = false }: HeaderProps) {
               className={`
                 rounded-full font-bold no-underline transition-all duration-200
                 ${condensed ? "px-3.5 py-2.5" : "px-4 py-3"}
-                ${isActive
-                  ? "bg-gradient-to-br from-[var(--primary-dark)] to-[var(--success)] text-white"
-                  : "text-[var(--muted)] hover:bg-gradient-to-br hover:from-[var(--primary-dark)] hover:to-[var(--success)] hover:text-white"
+                ${
+                  isActive
+                    ? "bg-gradient-to-br from-[var(--primary-dark)] to-[var(--success)] text-white"
+                    : "text-[var(--muted)] hover:bg-gradient-to-br hover:from-[var(--primary-dark)] hover:to-[var(--success)] hover:text-white"
                 }
               `}
             >

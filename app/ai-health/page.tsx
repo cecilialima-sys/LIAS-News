@@ -18,7 +18,7 @@ export default function AIHealthPage() {
     "Enfermagem",
     "Hospitais",
     "Pesquisa médica",
-    "Atendimento"
+    "Atendimento",
   ]
 
   return (
@@ -28,7 +28,6 @@ export default function AIHealthPage() {
         <Header />
 
         <main>
-          {/* Page Hero */}
           <section className="mb-4.5 rounded-[28px] border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[var(--shadow)] backdrop-blur-sm">
             <h2 className="mb-2.5 font-heading text-[clamp(2rem,4vw,3rem)] font-bold">
               Inteligência Artificial na Saúde
@@ -38,7 +37,6 @@ export default function AIHealthPage() {
             </p>
           </section>
 
-          {/* Topic Strip */}
           <section className="mb-6.5 grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-5">
             {topics.map((topic) => (
               <span
@@ -50,7 +48,6 @@ export default function AIHealthPage() {
             ))}
           </section>
 
-          {/* News Grid */}
           <section className="mb-4.5 flex flex-col items-start justify-between gap-4.5 sm:flex-row sm:items-end">
             <div>
               <p className="mb-2 text-[0.78rem] font-bold uppercase tracking-wider text-[var(--primary)]">

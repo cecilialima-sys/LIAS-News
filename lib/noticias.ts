@@ -16,43 +16,43 @@ export const noticias: Noticia[] = [
   {
     id: "gpt-5-5-openai-2026",
     categoria: "ai-news",
-    rotulo: "LanÃ§amento",
+    rotulo: "Lançamento",
     area: "Modelos frontier",
-    titulo: "GPT-5.5 Ã© lanÃ§ado como o modelo mais poderoso da OpenAI atÃ© agora",
-    resumo: "A OpenAI apresentou o GPT-5.5 para ChatGPT e Codex com foco em programaÃ§Ã£o agÃªntica, uso de computador, trabalho de conhecimento e pesquisa cientÃ­fica.",
+    titulo: "GPT-5.5 é lançado como o modelo mais poderoso da OpenAI até agora",
+    resumo: "A OpenAI apresentou o GPT-5.5 para ChatGPT e Codex com foco em programação agêntica, uso de computador, trabalho de conhecimento e pesquisa científica.",
     data: "23 de abril de 2026",
     fonte: "OpenAI / The Rundown AI",
     fonteUrl: "https://openai.com/index/introducing-gpt-5-5/",
     conteudo: [
-      "O Radar IA da semana de 21 a 23 de abril destaca o GPT-5.5 como a atualizaÃ§Ã£o mais relevante da OpenAI em 2026. Segundo o relatÃ³rio, o modelo promete concluir tarefas de engenharia com menos tentativas e menor custo operacional, reforÃ§ando a disputa direta com Anthropic e Kimi no mercado de agentes de software."
+      "O Radar IA da semana de 21 a 23 de abril destaca o GPT-5.5 como a atualização mais relevante da OpenAI em 2026. Segundo o relatório, o modelo promete concluir tarefas de engenharia com menos tentativas e menor custo operacional, reforçando a disputa direta com Anthropic e Kimi no mercado de agentes de software."
     ]
   },
   {
     id: "chatgpt-images-2-2026",
     categoria: "ai-news",
     rotulo: "Imagem",
-    area: "GeraÃ§Ã£o visual",
-    titulo: "ChatGPT Images 2.0 inaugura geraÃ§Ã£o de imagens com planejamento e autocorreÃ§Ã£o",
-    resumo: "A nova geraÃ§Ã£o de imagens da OpenAI busca referÃªncias, planeja antes de criar e verifica seus resultados, assumindo a lideranÃ§a em benchmark de texto para imagem.",
+    area: "Geração visual",
+    titulo: "ChatGPT Images 2.0 inaugura geração de imagens com planejamento e autocorreção",
+    resumo: "A nova geração de imagens da OpenAI busca referências, planeja antes de criar e verifica seus resultados, assumindo a liderança em benchmark de texto para imagem.",
     data: "23 de abril de 2026",
     fonte: "The Rundown AI",
     fonteUrl: "https://www.therundown.ai/p/openai-reclaims-the-image-crown",
     conteudo: [
-      "O relatÃ³rio interpreta o lanÃ§amento como uma mudanÃ§a de paradigma: em vez de apenas gerar imagens, o sistema passa a agir como agente visual, com capacidade de buscar contexto e corrigir saÃ­das. Para comunicaÃ§Ã£o, design e marketing, isso tende a reduzir etapas manuais do fluxo criativo."
+      "O relatório interpreta o lançamento como uma mudança de paradigma: em vez de apenas gerar imagens, o sistema passa a agir como agente visual, com capacidade de buscar contexto e corrigir saídas. Para comunicação, design e marketing, isso tende a reduzir etapas manuais do fluxo criativo."
     ]
   },
   {
     id: "kimi-k2-6-open-source-2026",
     categoria: "ai-news",
     rotulo: "Open source",
-    area: "ProgramaÃ§Ã£o agÃªntica",
-    titulo: "Kimi K2.6 pressiona modelos proprietÃ¡rios com alto desempenho e baixo custo",
-    resumo: "A Moonshot AI liberou o Kimi K2.6 como cÃ³digo aberto com 1 trilhÃ£o de parÃ¢metros totais, contexto de 256K e preÃ§o agressivo de API.",
+    area: "Programação agêntica",
+    titulo: "Kimi K2.6 pressiona modelos proprietários com alto desempenho e baixo custo",
+    resumo: "A Moonshot AI liberou o Kimi K2.6 como código aberto com 1 trilhão de parâmetros totais, contexto de 256K e preço agressivo de API.",
     data: "20 de abril de 2026",
     fonte: "Roborhythms / Moonshot AI / The Rundown AI",
     fonteUrl: "https://www.roborhythms.com/kimi-k2-6-release/",
     conteudo: [
-      "Para o portal, o principal sinal Ã© econÃ´mico e estratÃ©gico: um modelo open source com esse nÃ­vel de desempenho pode reconfigurar o mercado de agentes de codificaÃ§Ã£o para pequenos times, pressionando OpenAI e Anthropic em preÃ§o, contexto e abertura."
+      "Para o portal, o principal sinal é econômico e estratégico: um modelo open source com esse nível de desempenho pode reconfigurar o mercado de agentes de codificação para pequenos times, pressionando OpenAI e Anthropic em preço, contexto e abertura."
     ]
   },
   {
@@ -60,41 +60,41 @@ export const noticias: Noticia[] = [
     categoria: "ai-news",
     rotulo: "Mercado",
     area: "Dados de treinamento",
-    titulo: "Meta quer monitorar telas e teclados de funcionÃ¡rios para treinar IA",
-    resumo: "A empresa sinalizou uso de dados de comportamento no trabalho como insumo para IA interna, em meio a forte aumento de investimento e reorganizaÃ§Ã£o da forÃ§a de trabalho.",
+    titulo: "Meta quer monitorar telas e teclados de funcionários para treinar IA",
+    resumo: "A empresa sinalizou uso de dados de comportamento no trabalho como insumo para IA interna, em meio a forte aumento de investimento e reorganização da força de trabalho.",
     data: "21 de abril de 2026",
     fonte: "Fortune",
     fonteUrl: "https://fortune.com/2026/04/21/meta-will-start-tracking-employees-screens-and-keystrokes-to-train-ai/",
     conteudo: [
-      "A leitura do Radar IA Ã© que a disputa por modelos mais capazes estÃ¡ elevando o valor de dados proprietÃ¡rios de comportamento humano real. Isso amplia o debate sobre privacidade no trabalho e sobre os limites aceitÃ¡veis da coleta de dados para treinamento corporativo."
+      "A leitura do Radar IA é que a disputa por modelos mais capazes está elevando o valor de dados proprietários de comportamento humano real. Isso amplia o debate sobre privacidade no trabalho e sobre os limites aceitáveis da coleta de dados para treinamento corporativo."
     ]
   },
   {
     id: "sergey-brin-strike-team-2026",
     categoria: "ai-news",
-    rotulo: "EstratÃ©gia",
-    area: "Corrida por cÃ³digo",
-    titulo: "Sergey Brin assume frente no DeepMind para tentar superar Anthropic em cÃ³digo",
-    resumo: "O cofundador do Google voltou Ã  operaÃ§Ã£o para liderar um time especial focado em desempenho de programaÃ§Ã£o com Gemini e automaÃ§Ã£o interna.",
+    rotulo: "Estratégia",
+    area: "Corrida por código",
+    titulo: "Sergey Brin assume frente no DeepMind para tentar superar Anthropic em código",
+    resumo: "O cofundador do Google voltou à operação para liderar um time especial focado em desempenho de programação com Gemini e automação interna.",
     data: "22 de abril de 2026",
     fonte: "The Rundown AI / The Information",
     fonteUrl: "https://www.therundown.ai/",
     conteudo: [
-      "O relatÃ³rio trata o movimento como um sinal forte de que a prÃ³xima grande disputa da IA passa pelo desenvolvimento de software autÃ´nomo. Se a aposta funcionar, o impacto nÃ£o serÃ¡ apenas em produto, mas tambÃ©m na forma como grandes empresas usam IA para se reestruturar por dentro."
+      "O relatório trata o movimento como um sinal forte de que a próxima grande disputa da IA passa pelo desenvolvimento de software autônomo. Se a aposta funcionar, o impacto não será apenas em produto, mas também na forma como grandes empresas usam IA para se reestruturar por dentro."
     ]
   },
   {
     id: "geoffrey-hinton-onu-regulacao-2026",
     categoria: "ai-news",
-    rotulo: "GovernanÃ§a",
-    area: "RegulaÃ§Ã£o global",
-    titulo: "Geoffrey Hinton e ONU reforÃ§am apelo por regulaÃ§Ã£o urgente da IA",
-    resumo: "Em evento da ONU em Genebra, Hinton comparou a situaÃ§Ã£o atual da IA a um carro sem freio e pediu marcos globais antes que o setor avance ainda mais sem supervisÃ£o.",
+    rotulo: "Governança",
+    area: "Regulação global",
+    titulo: "Geoffrey Hinton e ONU reforçam apelo por regulação urgente da IA",
+    resumo: "Em evento da ONU em Genebra, Hinton comparou a situação atual da IA a um carro sem freio e pediu marcos globais antes que o setor avance ainda mais sem supervisão.",
     data: "23 de abril de 2026",
     fonte: "UN News",
     fonteUrl: "https://news.un.org/en/story/2026/04/1167361",
     conteudo: [
-      "Para o portal, a fala ganha peso porque conecta crescimento econÃ´mico acelerado, concentraÃ§Ã£o de poder tecnolÃ³gico e risco regulatÃ³rio. O debate Ã© especialmente relevante para o Brasil em um momento de expansÃ£o de deepfakes, eleiÃ§Ãµes e discussÃµes sobre arcabouÃ§o legal."
+      "Para o portal, a fala ganha peso porque conecta crescimento econômico acelerado, concentração de poder tecnológico e risco regulatório. O debate é especialmente relevante para o Brasil em um momento de expansão de deepfakes, eleições e discussões sobre arcabouço legal."
     ]
   },
   {
@@ -102,13 +102,13 @@ export const noticias: Noticia[] = [
     categoria: "ai-news",
     rotulo: "Ferramenta",
     area: "Desenvolvimento",
-    titulo: "Windsurf 2.0 aposta em delegaÃ§Ã£o para agentes de codificaÃ§Ã£o na nuvem",
-    resumo: "A nova versÃ£o centraliza mÃºltiplos agentes em um painel Ãºnico e permite que eles continuem executando tarefas na nuvem mesmo apÃ³s o usuÃ¡rio sair do computador.",
+    titulo: "Windsurf 2.0 aposta em delegação para agentes de codificação na nuvem",
+    resumo: "A nova versão centraliza múltiplos agentes em um painel único e permite que eles continuem executando tarefas na nuvem mesmo após o usuário sair do computador.",
     data: "23 de abril de 2026",
     fonte: "Windsurf",
     fonteUrl: "https://windsurf.ai",
     conteudo: [
-      "O Radar IA posiciona a ferramenta como camada de orquestraÃ§Ã£o para equipes que querem operar fluxos de desenvolvimento com vÃ¡rios modelos em paralelo. Isso reforÃ§a a tendÃªncia de um trabalho mais baseado em supervisÃ£o de agentes do que em codificaÃ§Ã£o manual contÃ­nua."
+      "O Radar IA posiciona a ferramenta como camada de orquestração para equipes que querem operar fluxos de desenvolvimento com vários modelos em paralelo. Isso reforça a tendência de um trabalho mais baseado em supervisão de agentes do que em codificação manual contínua."
     ]
   },
   {
@@ -116,83 +116,83 @@ export const noticias: Noticia[] = [
     categoria: "ai-news",
     rotulo: "Pesquisa",
     area: "Prompt optimization",
-    titulo: "GEPA propÃµe otimizaÃ§Ã£o de prompts por reflexÃ£o em linguagem natural",
-    resumo: "Pesquisadores da Universidade de Hong Kong apresentaram um sistema que aprende a melhorar prompts com regras de alto nÃ­vel e menos tentativas do que mÃ©todos concorrentes.",
+    titulo: "GEPA propõe otimização de prompts por reflexão em linguagem natural",
+    resumo: "Pesquisadores da Universidade de Hong Kong apresentaram um sistema que aprende a melhorar prompts com regras de alto nível e menos tentativas do que métodos concorrentes.",
     data: "23 de abril de 2026",
     fonte: "HuggingFace Papers",
     fonteUrl: "https://huggingface.co/papers/trending",
     conteudo: [
-      "O relatÃ³rio interpreta o GEPA como um indicativo de que modelos e pipelines podem se autoajustar com mais eficiÃªncia no futuro. Para produtos baseados em LLMs, isso sugere reduÃ§Ã£o do tempo de ajuste fino e menor dependÃªncia de intervenÃ§Ã£o manual em prompt engineering."
+      "O relatório interpreta o GEPA como um indicativo de que modelos e pipelines podem se autoajustar com mais eficiência no futuro. Para produtos baseados em LLMs, isso sugere redução do tempo de ajuste fino e menor dependência de intervenção manual em prompt engineering."
     ]
   },
   {
     id: "chatgpt-for-clinicians-2026",
     categoria: "ai-health",
-    rotulo: "TI clÃ­nica",
+    rotulo: "TI clínica",
     area: "Fluxo assistencial",
-    titulo: "OpenAI lanÃ§a ChatGPT for Clinicians gratuito para profissionais de saÃºde nos EUA",
-    resumo: "A versÃ£o adaptada para clÃ­nicos inclui documentaÃ§Ã£o mÃ©dica, pesquisa com busca confiÃ¡vel, fluxos reutilizÃ¡veis e recursos compatÃ­veis com HIPAA.",
+    titulo: "OpenAI lança ChatGPT for Clinicians gratuito para profissionais de saúde nos EUA",
+    resumo: "A versão adaptada para clínicos inclui documentação médica, pesquisa com busca confiável, fluxos reutilizáveis e recursos compatíveis com HIPAA.",
     data: "23 de abril de 2026",
     fonte: "OpenAI",
     fonteUrl: "https://releasebot.io/updates/openai",
     conteudo: [
-      "No Radar IA, o lanÃ§amento aparece como marco de entrada mais direta da IA generativa no cuidado clÃ­nico cotidiano. O destaque fica para o volume de validaÃ§Ã£o prÃ©via com respostas revisadas por mÃ©dicos e para o potencial de reduzir carga administrativa no atendimento."
+      "No Radar IA, o lançamento aparece como marco de entrada mais direta da IA generativa no cuidado clínico cotidiano. O destaque fica para o volume de validação prévia com respostas revisadas por médicos e para o potencial de reduzir carga administrativa no atendimento."
     ]
   },
   {
     id: "oms-europa-ia-diagnostico-2026",
     categoria: "ai-health",
-    rotulo: "RegulaÃ§Ã£o",
-    area: "GovernanÃ§a internacional",
-    titulo: "RelatÃ³rio da OMS mostra que 74% dos paÃ­ses da UE jÃ¡ usam IA em diagnÃ³stico clÃ­nico",
-    resumo: "O primeiro panorama da OMS/Europa sobre os 27 Estados-Membros da UE indica adoÃ§Ã£o ampla de IA em diagnÃ³stico, mas com estratÃ©gia nacional formal ainda restrita a poucos paÃ­ses.",
+    rotulo: "Regulação",
+    area: "Governança internacional",
+    titulo: "Relatório da OMS mostra que 74% dos países da UE já usam IA em diagnóstico clínico",
+    resumo: "O primeiro panorama da OMS/Europa sobre os 27 Estados-Membros da UE indica adoção ampla de IA em diagnóstico, mas com estratégia nacional formal ainda restrita a poucos países.",
     data: "20 de abril de 2026",
     fonte: "WHO/Europe",
     fonteUrl: "https://www.who.int/europe/news/item/20-04-2026-new-who-europe-report-provides-first-ever-snapshot-of-ai-in-health-care-across-european-union-member-states",
     conteudo: [
-      "O relatÃ³rio de IA na SaÃºde trata esse levantamento como um benchmark institucional importante: a adoÃ§Ã£o clÃ­nica jÃ¡ superou a fase experimental e agora exige capacitaÃ§Ã£o, transparÃªncia pÃºblica e centros de excelÃªncia para padronizar governanÃ§a e implementaÃ§Ã£o."
+      "O relatório de IA na Saúde trata esse levantamento como um benchmark institucional importante: a adoção clínica já superou a fase experimental e agora exige capacitação, transparência pública e centros de excelência para padronizar governança e implementação."
     ]
   },
   {
     id: "comissao-europeia-63m-ia-saude-2026",
     categoria: "ai-health",
     rotulo: "Investimento",
-    area: "PolÃ­tica pÃºblica",
-    titulo: "ComissÃ£o Europeia abre â‚¬63,2 milhÃµes para IA em saÃºde e seguranÃ§a digital",
-    resumo: "O Programa Europa Digital abriu sete chamadas com foco em imagem mÃ©dica, serviÃ§os digitais de saÃºde e formaÃ§Ã£o em competÃªncias avanÃ§adas.",
+    area: "Política pública",
+    titulo: "Comissão Europeia abre €63,2 milhões para IA em saúde e segurança digital",
+    resumo: "O Programa Europa Digital abriu sete chamadas com foco em imagem médica, serviços digitais de saúde e formação em competências avançadas.",
     data: "21 de abril de 2026",
     fonte: "European Commission",
     fonteUrl: "https://digital-strategy.ec.europa.eu/en/news/commission-makes-eu632-million-available-support-ai-innovation-health-and-online-safety",
     conteudo: [
-      "Para o portal, o anÃºncio mostra que a discussÃ£o sobre IA em saÃºde nÃ£o estÃ¡ mais sÃ³ no campo conceitual. A existÃªncia de recursos dedicados para triagem por imagem, dados interoperÃ¡veis e capacitaÃ§Ã£o sugere uma estratÃ©gia pÃºblica mais estruturada para transformar adoÃ§Ã£o em capacidade institucional."
+      "Para o portal, o anúncio mostra que a discussão sobre IA em saúde não está mais só no campo conceitual. A existência de recursos dedicados para triagem por imagem, dados interoperáveis e capacitação sugere uma estratégia pública mais estruturada para transformar adoção em capacidade institucional."
     ]
   },
   {
     id: "bmj-open-chatbots-problematicos-2026",
     categoria: "ai-health",
-    rotulo: "SeguranÃ§a",
-    area: "InformaÃ§Ã£o mÃ©dica",
-    titulo: "Estudo no BMJ Open aponta respostas problemÃ¡ticas em quase metade das consultas a chatbots",
-    resumo: "Pesquisa citada no relatÃ³rio semanal encontrou 30% de respostas moderadamente problemÃ¡ticas e 19,6% altamente problemÃ¡ticas em perguntas mÃ©dicas comuns.",
+    rotulo: "Segurança",
+    area: "Informação médica",
+    titulo: "Estudo no BMJ Open aponta respostas problemáticas em quase metade das consultas a chatbots",
+    resumo: "Pesquisa citada no relatório semanal encontrou 30% de respostas moderadamente problemáticas e 19,6% altamente problemáticas em perguntas médicas comuns.",
     data: "21 de abril de 2026",
     fonte: "BMJ Open / HealthDay",
     fonteUrl: "https://www.usnews.com/news/health-news/articles/2026-04-21/study-finds-ai-chatbots-can-give-misleading-health-advice",
     conteudo: [
-      "A leitura central Ã© que o risco nÃ£o estÃ¡ apenas no erro direto, mas tambÃ©m no falso equilÃ­brio entre tratamento validado e alternativas nÃ£o comprovadas. Para a saÃºde, isso reforÃ§a a necessidade de orientar pacientes sobre os limites dos chatbots genÃ©ricos em decisÃµes clÃ­nicas."
+      "A leitura central é que o risco não está apenas no erro direto, mas também no falso equilíbrio entre tratamento validado e alternativas não comprovadas. Para a saúde, isso reforça a necessidade de orientar pacientes sobre os limites dos chatbots genéricos em decisões clínicas."
     ]
   },
   {
     id: "aha-shadow-ai-governanca-2026",
     categoria: "ai-health",
-    rotulo: "TI clÃ­nica",
-    area: "GovernanÃ§a hospitalar",
-    titulo: "Painel da AHA coloca a shadow AI entre os maiores riscos de governanÃ§a hospitalar",
-    resumo: "LÃ­deres de grandes sistemas de saÃºde discutiram privacidade, ciberseguranÃ§a, equidade de acesso e uso informal de IA generativa fora da supervisÃ£o institucional.",
+    rotulo: "TI clínica",
+    area: "Governança hospitalar",
+    titulo: "Painel da AHA coloca a shadow AI entre os maiores riscos de governança hospitalar",
+    resumo: "Líderes de grandes sistemas de saúde discutiram privacidade, cibersegurança, equidade de acesso e uso informal de IA generativa fora da supervisão institucional.",
     data: "20 de abril de 2026",
     fonte: "American Hospital Association",
     fonteUrl: "https://www.aha.org/news/headline/2026-04-20-ai-health-care-experts-discuss-future-ai-practices-and-policies",
     conteudo: [
-      "O relatÃ³rio destaca que o desafio de 2026 deixou de ser apenas tÃ©cnico e passou a ser organizacional. Hospitais sem polÃ­ticas formais de IA correm risco regulatÃ³rio e clÃ­nico, especialmente quando ferramentas generativas passam a circular informalmente entre equipes e setores."
+      "O relatório destaca que o desafio de 2026 deixou de ser apenas técnico e passou a ser organizacional. Hospitais sem políticas formais de IA correm risco regulatório e clínico, especialmente quando ferramentas generativas passam a circular informalmente entre equipes e setores."
     ]
   },
   {
