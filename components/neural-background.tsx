@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useCallback, useEffect, useRef } from "react"
 
 const neuralBlueprint = {
   nodes: [
@@ -20,6 +20,23 @@ export function NeuralBackground() {
   const clusterRef = useRef<HTMLDivElement>(null)
   const nodeElementsRef = useRef<HTMLSpanElement[]>([])
   const linkElementsRef = useRef<{ el: HTMLSpanElement; start: { x: number; y: number }; end: { x: number; y: number } }[]>([])
+
+  const energizeNetwork = useCallback((clientX: number, clientY: number) => {
+    const pointerX = (clientX / window.innerWidth) * 100
+    const pointerY = (clientY / window.innerHeight) * 100
+
+    neuralBlueprint.nodes.forEach((node, index) => {
+      const distance = Math.hypot(node.x - pointerX, node.y - pointerY)
+      nodeElementsRef.current[index]?.classList.toggle("is-energized", distance < 12)
+    })
+
+    linkElementsRef.current.forEach((link) => {
+      const midX = (link.start.x + link.end.x) / 2
+      const midY = (link.start.y + link.end.y) / 2
+      const distance = Math.hypot(midX - pointerX, midY - pointerY)
+      link.el.classList.toggle("is-energized", distance < 14)
+    })
+  }, [])
 
   useEffect(() => {
     const cluster = clusterRef.current
@@ -78,24 +95,7 @@ export function NeuralBackground() {
       window.removeEventListener("mousemove", handleMouseMove)
       if (rafId) cancelAnimationFrame(rafId)
     }
-  }, [])
-
-  const energizeNetwork = (clientX: number, clientY: number) => {
-    const pointerX = (clientX / window.innerWidth) * 100
-    const pointerY = (clientY / window.innerHeight) * 100
-
-    neuralBlueprint.nodes.forEach((node, index) => {
-      const distance = Math.hypot(node.x - pointerX, node.y - pointerY)
-      nodeElementsRef.current[index]?.classList.toggle("is-energized", distance < 12)
-    })
-
-    linkElementsRef.current.forEach((link) => {
-      const midX = (link.start.x + link.end.x) / 2
-      const midY = (link.start.y + link.end.y) / 2
-      const distance = Math.hypot(midX - pointerX, midY - pointerY)
-      link.el.classList.toggle("is-energized", distance < 14)
-    })
-  }
+  }, [energizeNetwork])
 
   return (
     <div className="neural-bg" aria-hidden="true">

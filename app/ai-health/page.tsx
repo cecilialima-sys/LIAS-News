@@ -6,8 +6,16 @@ import { NeuralBackground } from "@/components/neural-background"
 import { getNoticiasByCategoria } from "@/lib/noticias"
 
 export const metadata: Metadata = {
-  title: "Inteligência Artificial na Saúde | LIAS News",
+  title: "Inteligência Artificial na Saúde",
   description: "Notícias e conteúdos sobre aplicações da IA na saúde.",
+  alternates: {
+    canonical: "/ai-health",
+  },
+  openGraph: {
+    title: "Inteligência Artificial na Saúde",
+    description: "Notícias e conteúdos sobre aplicações da IA na saúde.",
+    url: "/ai-health",
+  },
 }
 
 export default function AIHealthPage() {

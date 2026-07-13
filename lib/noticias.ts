@@ -1,5 +1,6 @@
 export interface Noticia {
   id: string
+  slug?: string
   categoria: "ai-news" | "ai-health"
   rotulo: string
   area: string
@@ -10,6 +11,46 @@ export interface Noticia {
   referencia?: string
   fonteUrl?: string
   conteudo?: string[]
+}
+
+const monthMap: Record<string, string> = {
+  janeiro: "01",
+  fevereiro: "02",
+  março: "03",
+  marco: "03",
+  abril: "04",
+  maio: "05",
+  junho: "06",
+  julho: "07",
+  agosto: "08",
+  setembro: "09",
+  outubro: "10",
+  novembro: "11",
+  dezembro: "12",
+}
+
+export function getNoticiaSlug(noticia: Pick<Noticia, "id" | "slug">) {
+  return noticia.slug || noticia.id
+}
+
+export function getNoticiaPath(noticia: Pick<Noticia, "id" | "slug">) {
+  return `/noticias/${getNoticiaSlug(noticia)}`
+}
+
+export function getNoticiaIsoDate(noticia: Pick<Noticia, "data">) {
+  const match = noticia.data
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .match(/^(\d{1,2}) de ([a-z]+) de (\d{4})$/)
+
+  if (!match) return undefined
+
+  const [, day, monthName, year] = match
+  const month = monthMap[monthName]
+  if (!month) return undefined
+
+  return `${year}-${month}-${day.padStart(2, "0")}`
 }
 
 export const noticias: Noticia[] = [
@@ -528,6 +569,10 @@ export const noticias: Noticia[] = [
 
 export function getNoticiaById(id: string): Noticia | undefined {
   return noticias.find((n) => n.id === id)
+}
+
+export function getNoticiaBySlug(slug: string): Noticia | undefined {
+  return noticias.find((n) => getNoticiaSlug(n) === slug || n.id === slug)
 }
 
 export function getNoticiasByCategoria(categoria: "ai-news" | "ai-health"): Noticia[] {

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import type { Noticia } from "@/lib/noticias"
+import { getNoticiaPath, type Noticia } from "@/lib/noticias"
 
 interface NewsCardProps {
   noticia: Noticia
@@ -8,6 +8,7 @@ interface NewsCardProps {
 
 export function NewsCard({ noticia, featured = false }: NewsCardProps) {
   const referenceLabel = noticia.fonte || noticia.referencia || "Fonte institucional"
+  const href = getNoticiaPath(noticia)
 
   return (
     <article
@@ -30,7 +31,9 @@ export function NewsCard({ noticia, featured = false }: NewsCardProps) {
       </div>
 
       <h3 className="m-0 font-heading text-[1.3rem] font-bold leading-tight">
-        {noticia.titulo}
+        <Link href={href} className="no-underline hover:underline">
+          {noticia.titulo}
+        </Link>
       </h3>
 
       <p className="m-0 leading-relaxed text-[var(--muted)]">
@@ -42,7 +45,7 @@ export function NewsCard({ noticia, featured = false }: NewsCardProps) {
       </p>
 
       <Link
-        href={`/noticia/${noticia.id}`}
+        href={href}
         className="mt-auto font-bold text-[var(--primary)] no-underline hover:underline"
       >
         Ler matéria no portal

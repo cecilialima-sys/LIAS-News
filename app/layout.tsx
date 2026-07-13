@@ -1,23 +1,46 @@
 import type { Metadata } from 'next'
-import { Plus_Jakarta_Sans, Space_Grotesk } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { siteConfig } from '@/lib/site'
 import './globals.css'
 
-const plusJakarta = Plus_Jakarta_Sans({ 
-  subsets: ['latin'],
-  variable: '--font-sans',
-  weight: ['400', '500', '700', '800']
-})
-
-const spaceGrotesk = Space_Grotesk({ 
-  subsets: ['latin'],
-  variable: '--font-heading',
-  weight: ['500', '700']
-})
-
 export const metadata: Metadata = {
-  title: 'LIAS News',
-  description: 'Portal informativo da Liga de Inteligência Artificial na Saúde (LIAS), com notícias, pesquisas e tendências sobre IA e saúde.',
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: 'Lias News',
+    template: '%s | Lias News',
+  },
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'pt_BR',
+    siteName: siteConfig.name,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    images: [
+      {
+        url: siteConfig.defaultOgImage,
+        width: 764,
+        height: 636,
+        alt: 'Logo do Lias News',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.defaultOgImage],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
+  },
 }
 
 export default function RootLayout({
@@ -27,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" data-scroll-behavior="smooth">
-      <body className={`${plusJakarta.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
       </body>

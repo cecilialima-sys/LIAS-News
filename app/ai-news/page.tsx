@@ -6,8 +6,16 @@ import { NeuralBackground } from "@/components/neural-background"
 import { getNoticiasByCategoria } from "@/lib/noticias"
 
 export const metadata: Metadata = {
-  title: "Atualizações em Inteligência Artificial | LIAS News",
+  title: "Atualizações em Inteligência Artificial",
   description: "Notícias sobre tendências, ferramentas e pesquisas em IA.",
+  alternates: {
+    canonical: "/ai-news",
+  },
+  openGraph: {
+    title: "Atualizações em Inteligência Artificial",
+    description: "Notícias sobre tendências, ferramentas e pesquisas em IA.",
+    url: "/ai-news",
+  },
 }
 
 export default function AINewsPage() {
